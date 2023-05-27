@@ -1,0 +1,16 @@
+
+  *, *::before, *::after {
+  box-sizing: border-box;
+}
+html, body {
+  position: relative;
+  height:100vh;
+  width:100vw;
+  top:0;
+  left:0;
+  margin:0;
+}
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+text, h1, h2, h3, h4, h5, h6 {
+  font-family:"Pretendard";
+}
